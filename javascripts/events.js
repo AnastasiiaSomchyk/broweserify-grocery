@@ -38,4 +38,3 @@ const addDepartmentEvents = () => {
 module.exports = {
   addDepartmentEvents,
 };
-
