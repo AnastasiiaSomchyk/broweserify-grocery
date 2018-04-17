@@ -1,7 +1,5 @@
 const dataGatekeeper = require('./dataGatekeeper');
 
-dataGatekeeper.initializer();
-
 $('body').on('click', '.btn-number', function (e) {
   e.preventDefault();
 
@@ -74,3 +72,5 @@ $('.input-number').keydown(function (e) {
     e.preventDefault();
   }
 });
+
+dataGatekeeper.initializer();
