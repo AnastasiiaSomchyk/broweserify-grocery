@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: rgb(71, 121, 21);
 }
 .department{
   margin: 20px 0;
@@ -23,7 +23,7 @@ body {
 
 /* ITEMS */
 .item .panel{
-  height: 200px;
+  height: 275px;
 }
 .item-image{
   height: 100px;
