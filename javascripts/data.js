@@ -38,7 +38,10 @@ const setCart = (itemId, numberToAdd) => {
   // Adding a new key value pair to that object
   newItem.purchaseNum = numberToAdd;
   cart.push(newItem);
-  console.log('cart', cart);
+};
+
+const getCart = () => {
+  return cart;
 };
 
 module.exports = {
@@ -48,4 +51,5 @@ module.exports = {
   getItems,
   getitemsByDepartment,
   setCart,
+  getCart,
 };
