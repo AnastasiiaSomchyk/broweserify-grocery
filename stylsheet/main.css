@@ -29,3 +29,11 @@ body {
   height: 100px;
   width: 100px;
 }
+
+.col-xs-3{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+h1{
+  justify-content: center;
+}
